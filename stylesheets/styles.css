@@ -13,7 +13,7 @@ body {
   padding: 50px 0;
   margin: 0;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #555;
+  color: #111;
   font-weight: 300;
   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
 }
@@ -81,7 +81,8 @@ header.without-description h1 {
 }
 header p {
   margin: 0;
-  color: #61778B;
+  color: #222;
+  /*#61778B;*/
   width: 300px;
   font-size: 13px;
 }
@@ -190,6 +191,19 @@ section {
   -o-border-radius: 0 0 8px 8px;
   border-radius: 0 0 8px 8px;
   position: relative;
+}
+
+section.profile {
+  text-align: center;
+}
+
+section img.profile {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
